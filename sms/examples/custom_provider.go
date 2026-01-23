@@ -3,10 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/redis/go-redis/v9"
 	"log"
 
-	"github.com/CRORCR/go-common/sms"
+	"github.com/redis/go-redis/v9"
+
+	"github.com/gpencil/go-common/sms"
 )
 
 // CustomProvider 自定义短信服务商示例
